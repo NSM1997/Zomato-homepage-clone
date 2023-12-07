@@ -6,7 +6,7 @@ body{
 .mainImage{
     width:100vw;
     height: 57vh;
-    background-image: url("./assets/images/BackGround.png");
+    background-image: url("BackGround.png");
     background-repeat: no-repeat;
 }
 .leftNav{
@@ -100,19 +100,19 @@ font-style: italic;
     flex-direction: column;
 }
 .orderOnlineLogo{
-    background-image: url("./assets/images/Online-Food.png");
+    background-image: url("Online-Food.png");
     height: 10rem;
     width: 15rem;
     background-size: cover;
 }
 .diningLogo{
-    background-image: url("./assets/images/Dine-Out.png");
+    background-image: url("Dine-Out.png");
     background-size: cover;
     height: 10rem;
     width: 15rem;
 }
 .nightLifeLogo{
-    background-image: url("./assets/images/Night-Life.png");
+    background-image: url("Night-Life.png");
     background-size: cover;
     height: 10rem;
     width: 15rem;
