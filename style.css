@@ -1,0 +1,145 @@
+body{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+.mainImage{
+    width:100vw;
+    height: 57vh;
+    background-image: url("./assets/images/BackGround.png");
+    background-repeat: no-repeat;
+}
+.leftNav{
+    color: white;
+    position: absolute;
+    top:2rem;
+    left: 10rem;
+}
+.rightNav{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    position:absolute;
+    right:0px;
+    top:2rem;
+    margin-right: 10rem;
+}
+.centralPart{
+    position: absolute;
+    display: flex;
+    top:7rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    left: 33%;
+}
+.mainHeading h1{
+margin: 0px 0px;
+color: white;
+font-size: 3.8rem;
+font-style: italic;
+ font-weight: 1000;
+ font-family: Okra, Helvetica, sans-serif;
+}
+/* .secondHeading{
+    top:5rem;
+    margin-top: 0px;
+} */
+.secondHeading h2{
+    color: white;
+    margin: 7px 0px;
+    font-style: normal;
+    font-size: 1.8rem;
+    font-weight: lighter;
+}
+.searchAndFitlerBar{
+    background-color: white;
+    border-radius: 7px;
+    margin: 25px 0px;
+    width: 110%;
+    height: 2.5rem;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+}
+.Filter{
+    display: flex;
+    width: 23%;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.Search{
+    display: flex;
+    flex-direction: row;
+    width: 62%;
+    margin-right: 1rem;
+    align-items: center;
+    
+}
+#searchSpace{
+    margin-left: 1rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-weight: lighter;
+}
+.adds{
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 32vh;
+  justify-content: center;
+  column-gap: 13px;
+}
+.orderOnline{
+    display: flex;
+    flex-direction: column;
+}
+.orderOnlineLogo{
+    background-image: url("./assets/images/Online-Food.png");
+    height: 10rem;
+    width: 15rem;
+    background-size: cover;
+}
+.diningLogo{
+    background-image: url("./assets/images/Dine-Out.png");
+    background-size: cover;
+    height: 10rem;
+    width: 15rem;
+}
+.nightLifeLogo{
+    background-image: url("./assets/images/Night-Life.png");
+    background-size: cover;
+    height: 10rem;
+    width: 15rem;
+}
+h3{
+   margin-top: 13px;
+   margin-bottom: 0;
+   margin-left: 15px;
+   font-family:  Okra, Helvetica, sans-serif;
+   font-size:1rem;
+   font-stretch:ultra-expanded;
+   /* font-weight: 400; */
+   color: rgb(54, 54, 54);
+}
+p{
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size:0.8rem;
+    font-family:  Okra, Helvetica, sans-serif;
+    color: gray
+}
+.diningLogo, .nightLifeLogo, .orderOnlineLogo{
+    height: 20vh;
+    gap:5px;
+    border-radius: 10px 10px 0px 0px;
+}
+.orderOnlineCaption, .diningCaption, .nightLifeCaption{
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 0px 0px 10px 10px;
+}
